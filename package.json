@@ -1,0 +1,16 @@
+{
+  "name": "public-server",
+  "version": "1.0.0",
+  "description": "Vite proxy server for serving static files and proxying requests",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "mime-types": "^2.1.35"
+  }
+}
+

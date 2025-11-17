@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Server</title>
+</head>
+<body>
+  <div style="padding: 20px; font-family: Arial, sans-serif;">
+    <h1>Public Server</h1>
+    <p>这是一个 Vite 代理服务器，用于提供静态文件服务和代理请求。</p>
+    <h2>使用说明：</h2>
+    <ul>
+      <li>将打包后的项目（如 dist）放到当前根目录下</li>
+      <li>通过 <code>localhost:3100/dist/index.html</code> 访问</li>
+      <li>页面发出的请求会被代理到配置的后端服务器</li>
+    </ul>
+    <h2>已检测到的子目录：</h2>
+    <ul id="subdirs"></ul>
+  </div>
+  <script type="module">
+    // 可以在这里添加一些动态功能
+    console.log('Public Server is running on http://localhost:3100')
+  </script>
+</body>
+</html>
+
